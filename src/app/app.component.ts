@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
     this.svgIconService.registerIcons();
   }
 
-  ngOnInit(): void {
-    this.languageService.setLanguageFromBrowserSettings();
+  async ngOnInit(): Promise<void> {
+    await this.languageService.setLanguageFromBrowserSettings();
   }
 }

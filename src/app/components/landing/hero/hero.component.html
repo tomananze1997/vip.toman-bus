@@ -1,4 +1,4 @@
-<section class="main-container-outer h-[98vh]">
+<section class="main-container-outer !mt-[2vh] h-[98vh]">
   <!-- Fullscreen Background Video -->
   <video
     src="assets/videos/hero.mp4"
@@ -36,7 +36,7 @@
           </span>
         </p>
         <div class="hero-cta">
-          <button routerLink="/contact-us" class="btn-primary btn-lg">{{ 'MAIN.HERO.QUOTE_BUTTON' | translate }}</button>
+          <a [routerLink]="['/', languageService.currentLang, 'contact-us']" class="btn-primary btn-lg">{{ 'MAIN.HERO.QUOTE_BUTTON' | translate }}</a>
         </div>
       </div>
     </div>

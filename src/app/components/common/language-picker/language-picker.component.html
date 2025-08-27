@@ -9,7 +9,7 @@
     <ng-template pTemplate="selectedItem">
       <div class="flex gap-8 text-center align-middle text-secondary-600" *ngIf="selectedLanguage">
         <mat-icon svgIcon="{{ selectedLanguage.value }}"></mat-icon>
-        <span class="whitespace-nowrap">{{ selectedLanguage.label | translate }}</span>
+        <!--        <span class="whitespace-nowrap">{{ selectedLanguage.label | translate }}</span>-->
       </div>
     </ng-template>
     <ng-template let-selectedLanguage pTemplate="item">

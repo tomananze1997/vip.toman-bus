@@ -19,9 +19,11 @@
 
       <!-- buttons -->
       <div class="mt-6 flex flex-col justify-center gap-3 sm:mt-4 sm:flex-row sm:gap-4 lg:justify-start">
-        <button routerLink="/about-us" class="btn-primary-outline btn-md">{{ 'MAIN.WHO_WE_ARE.MORE_ABOUT_US_BUTTON' | translate }}</button>
-        <button routerLink="/" fragment="services" class="btn-primary btn-md">{{ 'MAIN.WHO_WE_ARE.SERVICES_BUTTON' | translate }}</button>
-        <button routerLink="/" fragment="fleet" class="btn-primary btn-md">{{ 'MAIN.WHO_WE_ARE.FLEET_BUTTON' | translate }}</button>
+        <a [routerLink]="['/', languageService.currentLang, 'about-us']" class="btn-primary-outline btn-md">{{ 'MAIN.WHO_WE_ARE.MORE_ABOUT_US_BUTTON' | translate }}</a>
+        <a [routerLink]="['/', languageService.currentLang]" fragment="services" class="btn-primary btn-md !hidden sm:!inline-flex">{{
+          'MAIN.WHO_WE_ARE.SERVICES_BUTTON' | translate
+        }}</a>
+        <a [routerLink]="['/', languageService.currentLang]" fragment="fleet" class="btn-primary btn-md">{{ 'MAIN.WHO_WE_ARE.FLEET_BUTTON' | translate }}</a>
       </div>
     </div>
   </div>

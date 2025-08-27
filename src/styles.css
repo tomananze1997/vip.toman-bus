@@ -203,7 +203,83 @@ html {
   color: #1877F2; /* Facebook Blue */
 }
 
+
+.section-text-hover mat-icon {
+  width: 20px !important;    /* mobile */
+  height: 20px !important;
+  min-width: 20px !important;
+  min-height: 20px !important;
+  vertical-align: middle;
+}
+
+@media (min-width: 640px) {
+  .section-text-hover mat-icon {
+    width: 22px !important;   /* tablet */
+    height: 22px !important;
+    min-width: 22px !important;
+    min-height: 22px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-text-hover mat-icon {
+    width: 24px !important;   /* desktop */
+    height: 24px !important;
+    min-width: 24px !important;
+    min-height: 24px !important;
+  }
+}
+
+.second-text-hover mat-icon {
+  width: 16px !important;    /* mobile */
+  height: 16px !important;
+  min-width: 16px !important;
+  min-height: 16px !important;
+  vertical-align: middle;
+}
+
+@media (min-width: 640px) {
+  .second-text-hover mat-icon {
+    width: 18px !important;   /* tablet */
+    height: 18px !important;
+    min-width: 18px !important;
+    min-height: 18px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .second-text-hover mat-icon {
+    width: 20px !important;   /* desktop */
+    height: 20px !important;
+    min-width: 20px !important;
+    min-height: 20px !important;
+  }
+}
+/* ---------- LANG-PICKER ---------- */
+
+.p-dropdown-trigger {
+  width: auto !important;
+  min-width: auto !important;
+  padding: 0 !important;
+  padding-right: 11px !important;
+}
+
+/* medium screen ≥ 768px */
+@media (min-width: 768px) {
+  .p-dropdown-trigger {
+    padding-right: 12px !important;
+  }
+}
+
+/* large screen ≥ 1024px */
+@media (min-width: 1024px) {
+  .p-dropdown-trigger {
+    padding-right: 12px !important;
+  }
+}
+
 /* ---------- BUTTONS ---------- */
+
 .btn-base {
   @apply inline-flex items-center justify-center font-semibold rounded-md transition-all duration-200 ease-in-out cursor-pointer select-none;
   @apply focus:outline-none;

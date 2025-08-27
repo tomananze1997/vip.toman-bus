@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+
+import { LanguageService } from '@services';
 
 @Component({
   selector: 'app-luxury',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./luxury.component.css']
 })
 export class LuxuryComponent {
-
+  public languageService: LanguageService = inject(LanguageService);
 }

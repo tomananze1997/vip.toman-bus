@@ -4,16 +4,16 @@
 >
   <div class="flex w-full items-center justify-between px-4 py-6 lg:mx-auto lg:w-4/5 lg:px-6">
     <!-- Logo -->
-    <a routerLink="/" class="flex items-center gap-2">
+    <a [routerLink]="['/', languageService.currentLang]" class="flex items-center gap-2">
       <img src="assets/images/logo_2.png" alt="Logo" class="h-10" />
     </a>
 
     <!-- Desktop Menu -->
     <div class="hidden items-center gap-6 lg:flex">
       <a href="tel:+38641720655" class="second-text-hover hidden items-center gap-1 xl:flex"><mat-icon svgIcon="telephone"></mat-icon>+386 41 720 655</a>
-      <button routerLink="/about-us" class="btn-secondary-outline btn-xs">{{ 'NAVIGATION.ABOUT_US' | translate }}</button>
-      <button routerLink="/contact-us" class="btn-secondary btn-xs">{{ 'NAVIGATION.CONTACT_US' | translate }}</button>
-      <button routerLink="/contact-us" class="btn-vip btn-xs">{{ 'NAVIGATION.VIP' | translate }}</button>
+      <a [routerLink]="['/', languageService.currentLang, 'about-us']" class="btn-secondary-outline btn-xs">{{ 'NAVIGATION.ABOUT_US' | translate }}</a>
+      <a [routerLink]="['/', languageService.currentLang, 'contact-us']" class="btn-primary-outline btn-xs">{{ 'NAVIGATION.CONTACT_US' | translate }}</a>
+      <a [routerLink]="['/', languageService.currentLang, 'contact-us']" class="btn-vip btn-xs">{{ 'NAVIGATION.VIP' | translate }}</a>
       <app-language-picker />
     </div>
 
@@ -41,9 +41,13 @@
 
   <!-- Mobile Menu -->
   <div *ngIf="isMenuOpen" class="fixed top-0 z-40 flex w-full flex-col items-center gap-4 bg-black bg-opacity-90 px-6 py-16 backdrop-blur-md lg:hidden">
-    <button routerLink="/about-us" class="btn-secondary-outline btn-md w-full" (click)="isMenuOpen = false">{{ 'NAVIGATION.ABOUT_US' | translate }}</button>
-    <button routerLink="/contact-us" class="btn-secondary btn-md w-full" (click)="isMenuOpen = false">{{ 'NAVIGATION.CONTACT_US' | translate }}</button>
-    <button routerLink="/contact-us" class="btn-vip btn-md w-full" (click)="isMenuOpen = false">{{ 'NAVIGATION.VIP' | translate }}</button>
+    <a [routerLink]="['/', languageService.currentLang, 'about-us']" class="btn-secondary-outline btn-md w-full" (click)="isMenuOpen = false">{{
+      'NAVIGATION.ABOUT_US' | translate
+    }}</a>
+    <a [routerLink]="['/', languageService.currentLang, 'contact-us']" class="btn-primary-outline btn-md w-full" (click)="isMenuOpen = false">{{
+      'NAVIGATION.CONTACT_US' | translate
+    }}</a>
+    <a [routerLink]="['/', languageService.currentLang, 'contact-us']" class="btn-vip btn-md w-full" (click)="isMenuOpen = false">{{ 'NAVIGATION.VIP' | translate }}</a>
     <app-language-picker (languageChange)="isMenuOpen = false" />
     <a href="tel:+38641720655" class="section-text-hover flex items-center gap-1"><mat-icon svgIcon="telephone"></mat-icon>+386 41 720 655</a>
   </div>

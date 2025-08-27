@@ -24,7 +24,7 @@
     <div class="w-full lg:w-1/3 px-2">
       <h4 class="footer-title">{{ 'FOOTER.LEGAL_TITLE' | translate }}</h4>
       <ul class="second-text space-y-2">
-        <li><a routerLink="/privacy-policy" class="second-text-hover">{{ 'FOOTER.PRIVACY_POLICY' | translate }}</a></li>
+        <li><a [routerLink]="['/', languageService.currentLang, 'privacy-policy']" class="second-text-hover">{{ 'FOOTER.PRIVACY_POLICY' | translate }}</a></li>
       </ul>
     </div>
 
