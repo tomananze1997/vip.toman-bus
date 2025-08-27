@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+
+import { LanguageService } from '@services';
 
 @Component({
   selector: 'app-hero',
@@ -6,6 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./hero.component.css']
 })
 export class HeroComponent {
+  public languageService: LanguageService = inject(LanguageService);
+
   public scrollDown(): void {
     const scrollThreshold: number = window.innerHeight * 0.8;
     const targetScroll = Math.floor(scrollThreshold);

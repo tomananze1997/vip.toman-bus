@@ -36,7 +36,7 @@
           </span>
         </p>
         <div class="hero-cta">
-          <button routerLink="/contact-us" class="btn-primary btn-lg">{{ 'MAIN.HERO.QUOTE_BUTTON' | translate }}</button>
+          <a [routerLink]="['/', languageService.currentLang, 'contact-us']" class="btn-primary btn-lg">{{ 'MAIN.HERO.QUOTE_BUTTON' | translate }}</a>
         </div>
       </div>
     </div>

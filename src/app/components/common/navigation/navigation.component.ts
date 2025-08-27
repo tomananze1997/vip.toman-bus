@@ -1,5 +1,7 @@
 import { Component, ElementRef, HostListener, inject } from '@angular/core';
 
+import { LanguageService } from '@services';
+
 @Component({
   selector: 'app-navigation',
   templateUrl: './navigation.component.html',
@@ -8,10 +10,11 @@ import { Component, ElementRef, HostListener, inject } from '@angular/core';
 export class NavigationComponent {
   public isMenuOpen: boolean = false;
   public isScrolled: boolean = false;
-  public showHamburger = true;
-  public showCross = false;
+  public showHamburger: boolean = true;
+  public showCross: boolean = false;
 
   private ref: ElementRef = inject(ElementRef);
+  public languageService: LanguageService = inject(LanguageService);
 
   @HostListener('window:scroll', [])
   onScroll() {
