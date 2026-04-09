@@ -21,6 +21,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content-privacy-policy span')?.textContent).toContain('toman-bus app is running!');
+    expect(compiled.querySelector('.content-privacy-policy span')?.textContent).toContain('vip.toman-bus app is running!');
   });
 });
