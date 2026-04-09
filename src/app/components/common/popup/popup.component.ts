@@ -8,6 +8,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 export class PopupComponent {
   @Input() showPopup: boolean = false;
   @Input() text: string = '';
+  @Input() textParams: Record<string, unknown> = {};
   @Output() confirmAction: EventEmitter<void> = new EventEmitter<void>();
 
   public onConfirm() {

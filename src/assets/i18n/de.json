@@ -97,8 +97,8 @@
           "DESCRIPTION": "Beginnen Sie eine bemerkenswerte Reise mit unserem Mercedes-Benz Travego. Für 51+2 Passagiere ausgelegt, vereint dieser Reisebus Eleganz und Funktionalität. Bleiben Sie mit dem Bordfernseher unterhalten, entspannen Sie sich in der klimatisierten Umgebung und kühlen Sie Ihre Getränke im Kühlschrank. Ob Langstreckenfahrt oder Sightseeing-Tour, unser Mercedes-Benz Travego garantiert eine stilvolle und komfortable Fahrt."
         },
         "SETRA": {
-          "NAME": "Setra 416 GT-HD",
-          "DESCRIPTION": "Genießen Sie Luxus und Raffinesse mit unserem Setra 416 GT HD Reisebus. Mit Sitzplätzen für 53+2 Passagiere bietet dieser Bus viel Raum und Komfort. Genießen Sie Ihre Lieblingssendungen auf dem Bordfernseher, profitieren Sie von der Toilette und erleben Sie eine angenehme Fahrt dank Klimaanlage und Kühlschrank. Ob besondere Veranstaltung oder Gruppenausflug, unser Setra 416 GT HD sorgt für ein erstklassiges Reiseerlebnis."
+          "NAME": "Setra S 517 HD",
+          "DESCRIPTION": "Genießen Sie Luxus und Raffinesse mit unserem Setra S 517 HD Reisebus. Mit Sitzplätzen für 57+2+1 Passagiere bietet dieser Bus viel Raum und Komfort. Genießen Sie Ihre Lieblingssendungen auf dem Bordfernseher, profitieren Sie von der Toilette und erleben Sie eine angenehme Fahrt dank Klimaanlage und Kühlschrank. Ob besondere Veranstaltung oder Gruppenausflug, unser Setra S 517 HD sorgt für ein erstklassiges Reiseerlebnis."
         }
       }
     },
@@ -159,6 +159,7 @@
     "POPUP": {
       "SUCCESS_TEXT": "E-Mail Erfolgreich Gesendet!",
       "FAILURE_TEXT": "Beim Senden Der E-Mail Ist Ein Fehler Aufgetreten.",
+      "COOLDOWN_TEXT": "Bitte warten Sie {{seconds}} Sekunden, bevor Sie eine weitere E-Mail senden.",
       "CONFIRM_BUTTON": "Bestätigen"
     }
   }

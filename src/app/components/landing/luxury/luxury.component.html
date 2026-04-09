@@ -4,7 +4,7 @@
   <!-- Background Image -->
   <div
     class="absolute left-0 top-1/2 -z-30 h-[60%] w-full -translate-y-1/2 bg-cover bg-left bg-no-repeat sm:h-[80%] lg:h-full"
-    style="background-image: url('assets/images/c-class_side-left.png')"
+    style="background-image: url('assets/images/Setra-S-517-HD_side.png')"
   ></div>
 
   <div class="main-container">
@@ -19,7 +19,7 @@
 
       <!-- Buttons -->
       <div class="mt-6 flex flex-col justify-center gap-3 sm:mt-4 sm:flex-row sm:gap-4 lg:justify-end">
-        <a [routerLink]="['/', languageService.currentLang, 'contact-us']" class="btn-vip btn-md">{{ 'MAIN.VIP_TRANSFERS.VIP_BUTTON' | translate }}</a>
+        <a [href]="REDIRECT_LINK" target="_blank" class="btn-vip btn-md">{{ 'MAIN.VIP_TRANSFERS.VIP_BUTTON' | translate }}</a>
         <a [routerLink]="['/', languageService.currentLang, 'about-us']" class="btn-primary btn-md">{{ 'MAIN.VIP_TRANSFERS.MORE_ABOUT_US_BUTTON' | translate }}</a>
       </div>
     </div>

@@ -97,8 +97,8 @@
           "DESCRIPTION": "Embark on a remarkable journey with our Mercedes Benz Travego. Designed to accommodate 51+2 passengers, this coach combines elegance and functionality. Stay entertained with the onboard TV, relax in the refreshing air-conditioned environment, and keep your refreshments cool in the refrigerator. Whether it's a long-distance trip or a sightseeing tour, our Mercedes Benz Travego guarantees a stylish and comfortable ride."
         },
         "SETRA": {
-          "NAME": "Setra 416 GT-HD",
-          "DESCRIPTION": "Indulge in luxury and sophistication with our Setra 416 GT HD coach. With seating for 53+2 passengers, this coach provides an abundance of space and comfort. Enjoy your favorite shows on the onboard TV, benefit from the convenience of a toilete, and experience a pleasant journey with the climate control and refrigerator. Whether it's a special event or a group excursion, our Setra 416 GT HD ensures a first-class travel experience."
+          "NAME": "Setra S 517 HD",
+          "DESCRIPTION": "Indulge in luxury and sophistication with our Setra S 517 HD coach. With seating for 57+2+1 passengers, this coach provides an abundance of space and comfort. Enjoy your favorite shows on the onboard TV, benefit from the convenience of a toilete, and experience a pleasant journey with the climate control and refrigerator. Whether it's a special event or a group excursion, our Setra S 517 HD ensures a first-class travel experience."
         }
       }
     },
@@ -159,6 +159,7 @@
     "POPUP": {
       "SUCCESS_TEXT": "Email Sent Successfully!",
       "FAILURE_TEXT": "An Error Occurred While Sending The Email.",
+      "COOLDOWN_TEXT": "Please wait {{seconds}} seconds before sending another email.",
       "CONFIRM_BUTTON": "Confirm"
     }
   }
