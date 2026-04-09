@@ -19,7 +19,7 @@
 
       <!-- Buttons -->
       <div class="mt-6 flex flex-col justify-center gap-3 sm:mt-4 sm:flex-row sm:gap-4 lg:justify-end">
-        <a [routerLink]="['/', languageService.currentLang, 'contact-us']" class="btn-vip btn-md">{{ 'MAIN.VIP_TRANSFERS.VIP_BUTTON' | translate }}</a>
+        <a [href]="REDIRECT_LINK" target="_blank" class="btn-vip btn-md">{{ 'MAIN.VIP_TRANSFERS.VIP_BUTTON' | translate }}</a>
         <a [routerLink]="['/', languageService.currentLang, 'about-us']" class="btn-primary btn-md">{{ 'MAIN.VIP_TRANSFERS.MORE_ABOUT_US_BUTTON' | translate }}</a>
       </div>
     </div>

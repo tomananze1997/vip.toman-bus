@@ -7,6 +7,7 @@ const dotenv = require('dotenv').config({ path: '.env' });
 const envFile = `import { IEnvironment } from '@interfaces';
 
 export const environment: IEnvironment = {
+  REDIRECT_LINK: '${process.env.REDIRECT_LINK}',
   EMAIL_SERVICE_ID: '${process.env.EMAIL_SERVICE_ID}',
   EMAIL_TEMPLATE_ID: '${process.env.EMAIL_TEMPLATE_ID}',
   EMAIL_PUBLIC_KEY: '${process.env.EMAIL_PUBLIC_KEY}'
@@ -18,6 +19,6 @@ fs.writeFile(targetPath, envFile, (err) => {
     console.error(err);
     throw err;
   } else {
-    console.log(successColor, `${checkSign} Successfully generated environment.development.ts`);
+    console.log(successColor, `${checkSign} Successfully generated environment.ts`);
   }
 });
