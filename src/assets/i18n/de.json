@@ -159,6 +159,7 @@
     "POPUP": {
       "SUCCESS_TEXT": "E-Mail Erfolgreich Gesendet!",
       "FAILURE_TEXT": "Beim Senden Der E-Mail Ist Ein Fehler Aufgetreten.",
+      "COOLDOWN_TEXT": "Bitte warten Sie {{seconds}} Sekunden, bevor Sie eine weitere E-Mail senden.",
       "CONFIRM_BUTTON": "Bestätigen"
     }
   }

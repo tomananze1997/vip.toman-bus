@@ -159,6 +159,7 @@
     "POPUP": {
       "SUCCESS_TEXT": "E-pošta uspešno poslana!",
       "FAILURE_TEXT": "Prišlo je do napake pri pošiljanju e-pošte.",
+      "COOLDOWN_TEXT": "Počakajte {{seconds}} sekund, preden pošljete novo e-pošto.",
       "CONFIRM_BUTTON": "Potrdi"
     }
   }

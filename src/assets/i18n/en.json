@@ -159,6 +159,7 @@
     "POPUP": {
       "SUCCESS_TEXT": "Email Sent Successfully!",
       "FAILURE_TEXT": "An Error Occurred While Sending The Email.",
+      "COOLDOWN_TEXT": "Please wait {{seconds}} seconds before sending another email.",
       "CONFIRM_BUTTON": "Confirm"
     }
   }
