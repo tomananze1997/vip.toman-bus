@@ -16,39 +16,27 @@ export class FleetComponent implements AfterViewInit, OnDestroy {
   public fleet: IFleet[] = [
     {
       name: 'MAIN.FLEET.VEHICLES.LION_COACH_1.NAME',
-      imgPrimary: 'assets/images/c-class_front.png',
-      imgSecondary: 'assets/images/c-class_side-left.png',
+      imgPrimary: 'assets/images/Man-Lions-coach_front.png',
+      imgSecondary: 'assets/images/Man-Lions-coach_side.png',
       description: 'MAIN.FLEET.VEHICLES.LION_COACH_1.DESCRIPTION'
     },
     {
       name: 'MAIN.FLEET.VEHICLES.TRAVEGO.NAME',
-      imgPrimary: 'assets/images/c-class_front.png',
-      imgSecondary: 'assets/images/c-class_side-left.png',
+      imgPrimary: 'assets/images/Mercedes-Benz-Travego_front.png',
+      imgSecondary: 'assets/images/Mercedes-Benz-Travego_side.png',
       description: 'MAIN.FLEET.VEHICLES.TRAVEGO.DESCRIPTION'
     },
     {
       name: 'MAIN.FLEET.VEHICLES.LION_COACH_2.NAME',
-      imgPrimary: 'assets/images/c-class_front.png',
-      imgSecondary: 'assets/images/bus-1_side-left.png',
+      imgPrimary: 'assets/images/Man-Lions-coach_front.png',
+      imgSecondary: 'assets/images/Man-Lions-coach_side.png',
       description: 'MAIN.FLEET.VEHICLES.LION_COACH_2.DESCRIPTION'
     },
     {
       name: 'MAIN.FLEET.VEHICLES.SETRA.NAME',
-      imgPrimary: 'assets/images/c-class_front.png',
-      imgSecondary: 'assets/images/bus-1_side-left.png',
+      imgPrimary: 'assets/images/Setra-S-517-HD_front.png',
+      imgSecondary: 'assets/images/Setra-S-517-HD_side.png',
       description: 'MAIN.FLEET.VEHICLES.SETRA.DESCRIPTION'
-    },
-    {
-      name: 'MAIN.FLEET.VEHICLES.C_CLASS.NAME',
-      imgPrimary: 'assets/images/c-class_front.png',
-      imgSecondary: 'assets/images/c-class_side-left.png',
-      description: 'MAIN.FLEET.VEHICLES.C_CLASS.DESCRIPTION'
-    },
-    {
-      name: 'MAIN.FLEET.VEHICLES.V_CLASS.NAME',
-      imgPrimary: 'assets/images/c-class_front.png',
-      imgSecondary: 'assets/images/bus-1_side-left.png',
-      description: 'MAIN.FLEET.VEHICLES.V_CLASS.DESCRIPTION'
     }
   ];
   public realIndex: number = 0;
