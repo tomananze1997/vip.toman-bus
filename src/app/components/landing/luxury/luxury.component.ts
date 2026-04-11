@@ -11,5 +11,9 @@ import { LanguageService } from '@services';
 })
 export class LuxuryComponent {
   public languageService: LanguageService = inject(LanguageService);
-  public REDIRECT_LINK: string = environment.REDIRECT_LINK;
+
+  public get coachSiteLangUrl(): string {
+    const base: string = environment.REDIRECT_LINK.replace(/\/$/, '');
+    return `${base}/${this.languageService.currentLang}`;
+  }
 }

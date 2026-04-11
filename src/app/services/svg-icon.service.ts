@@ -19,13 +19,13 @@ export class SvgIconService {
     this.matIconRegistry.addSvgIcon('down-arrow', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/down-arrow.svg'));
     this.matIconRegistry.addSvgIcon('left-arrow', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/left-arrow.svg'));
     this.matIconRegistry.addSvgIcon('right-arrow', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/right-arrow.svg'));
-    this.matIconRegistry.addSvgIcon('airplane', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/airplane.svg'));
-    this.matIconRegistry.addSvgIcon('coach', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/coach.svg'));
     this.matIconRegistry.addSvgIcon('corporate', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/corporate.svg'));
-    this.matIconRegistry.addSvgIcon('school', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/school.svg'));
-    this.matIconRegistry.addSvgIcon('ship', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/ship.svg'));
     this.matIconRegistry.addSvgIcon('suitcase', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/suitcase.svg'));
     this.matIconRegistry.addSvgIcon('facebook', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/facebook.svg'));
     this.matIconRegistry.addSvgIcon('mail', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/mail.svg'));
+    this.matIconRegistry.addSvgIcon('crown', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/crown.svg'));
+    this.matIconRegistry.addSvgIcon('champagne', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/champagne.svg'));
+    this.matIconRegistry.addSvgIcon('globe', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/globe.svg'));
+    this.matIconRegistry.addSvgIcon('settings', this.domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/settings.svg'));
   }
 }

@@ -2,7 +2,7 @@
   "NAVIGATION": {
     "ABOUT_US": "About us",
     "CONTACT_US": "Contact us",
-    "VIP": "VIP transfers",
+    "VIP": "Coach charters",
     "LANGUAGE": {
       "ENGLISH": "English",
       "SLOVENIAN": "Slovenian",
@@ -19,61 +19,82 @@
     "INFORMATIONS_CONTENT": "With us, your journey will be comfortable, safe, and tailored to your wishes – anywhere in Slovenia or Europe.",
     "COMPANY_DATA": "© 2025 Toman d.o.o. - Posavec 131, 4244 Podnart, Slovenia - VAT number: SI95427201"
   },
+  "SEO": {
+    "SITE_NAME": "Toman Bus — VIP",
+    "OG_LOCALE": "en_GB",
+    "OG_IMAGE": "/assets/images/logo_2.png",
+    "HOME": {
+      "TITLE": "Homepage",
+      "DESCRIPTION": "VIP and corporate chauffeur transfers on https://www.vip.toman-bus.si. Premium fleet, discreet drivers, airports and events across Slovenia and Europe. Request a quote from Toman d.o.o."
+    },
+    "ABOUT_US": {
+      "TITLE": "About us",
+      "DESCRIPTION": "Learn about Toman d.o.o. and our VIP chauffeur service on https://www.vip.toman-bus.si — experience, standards, and how we support business and private clients in Slovenia and Europe."
+    },
+    "CONTACT_US": {
+      "TITLE": "Contact us",
+      "DESCRIPTION": "Contact Toman VIP on https://www.vip.toman-bus.si for quotes and enquiries — phone, email, and contact form for chauffeur transfers in Slovenia and Europe."
+    },
+    "PRIVACY_POLICY": {
+      "TITLE": "Privacy policy",
+      "DESCRIPTION": "Privacy policy for Toman d.o.o. websites, including https://www.vip.toman-bus.si. How we handle personal data when you use the VIP transfers site and your rights."
+    }
+  },
   "MAIN": {
     "HERO": {
-      "TITLE": "Enjoy a Comfortable and Pleasant Experience",
-      "CONTENT_FIRST": "With Toman bus services, your journey will be comfortable and enjoyable. We ensure memorable experiences and new places to discover.",
-      "CONTENT_SECOND": "All buses are equipped with all tourist amenities. We also offer VIP transfers with premium vehicles and professional drivers.",
+      "TITLE": "Transportation at a higher level",
+      "CONTENT_FIRST": "Premium vehicles and experienced chauffeurs for a seamless travel experience, where every detail is carefully considered.",
+      "CONTENT_SECOND": "We combine reliability, discretion, and comfort into a service designed for clients who expect more than just getting from point A to point B.",
       "QUOTE_BUTTON": "Get a Quote"
     },
     "WHO_WE_ARE": {
-      "TITLE": "Experience Comfortable and Pleasant Journey",
+      "TITLE": "Discreet and seamless travel",
       "SUBTITLE": "Who We Are",
-      "CONTENT_1": "Comfortable, reliable, and worry-free - this is our approach to bus transportation. Whether it’s a trip, business event, or school excursion, we will take you safely and on time to your destination. Our buses are modernly equipped, drivers experienced, and service always tailored to your wishes. Let your journey start with trust - we take care of everything else.",
-      "CONTENT_2": "If you would like us to prepare an exact offer for you, please call, send an email, or contact us via contact form.",
+      "CONTENT_1": "Every journey is a carefully planned experience where comfort, discretion, and precision come first. With experienced chauffeurs and premium vehicles, we ensure a smooth and flawless ride, regardless of the occasion. Our service is tailored to your pace and expectations, so you can travel relaxed and without unnecessary concerns.",
+      "CONTENT_2": "For a tailored offer, we are at your disposal – simply contact us in the way that suits you best.",
       "MORE_ABOUT_US_BUTTON": "More About Us",
       "SERVICES_BUTTON": "Our Services",
       "FLEET_BUTTON": "Our Fleet"
     },
     "SERVICES": {
-      "TITLE": "Wherever You Need to Be - We'll Get You There",
-      "SUBTITLE": "Our Services",
+      "TITLE": "Transfers tailored to your pace and requirements",
+      "SUBTITLE": "Our services",
       "FIRST": {
-        "TITLE": "Airport Transfers",
-        "CONTENT": "Reliable and stress-free transfers to and from the airport - always on time."
+        "TITLE": "Business and corporate transfers",
+        "CONTENT": "Discreet and reliable service for companies, meetings, and business events."
       },
       "SECOND": {
-        "TITLE": "Seaport Transfers",
-        "CONTENT": "Smooth and timely connections to cruise ports - start your journey right."
+        "TITLE": "VIP and private transfers",
+        "CONTENT": "Comfort, discretion, and full flexibility for the most demanding clients."
       },
       "THIRD": {
-        "TITLE": "Travel Trips",
-        "CONTENT": "Day and multi-day transport for groups - comfortable, flexible, and safe."
+        "TITLE": "Events and special occasions",
+        "CONTENT": "Transfers for gala evenings, weddings, and exclusive events."
       },
       "FOURTH": {
-        "TITLE": "School Transports",
-        "CONTENT": "Safe and punctual school transfers with vetted drivers and dedicated routes."
+        "TITLE": "Premium group transfers",
+        "CONTENT": "Comfortable, organized travel for small and large groups at a higher standard."
       },
       "FIFTH": {
-        "TITLE": "Corporate Transports",
-        "CONTENT": "Professional transport for business events, clients, and executives."
+        "TITLE": "Long-distance transfers across Slovenia and Europe",
+        "CONTENT": "Reliable and comfortable journeys over longer distances without stress."
       },
       "SIXTH": {
-        "TITLE": "Transportation On Request",
-        "CONTENT": "Custom transport solutions tailored to your needs. Contact us for flexible options."
+        "TITLE": "Tailor-made transfers",
+        "CONTENT": "Fully customized transport solutions based on your schedule, wishes, and requirements."
       },
       "BUTTON": "Learn More"
     },
-    "VIP_TRANSFERS": {
-      "TITLE": "Ultimate Comfort And Prestige Tailored To You",
-      "SUBTITLE": "VIP Transfers",
-      "CONTENT_1": "For special occasions or important business trips, we offer top-level transportation with luxury vehicles of the highest class. Our service is fully tailored to your wishes - we guarantee a comfortable, safe, and worry-free journey at the highest level.",
-      "CONTENT_2": "Our experienced and discreet drivers ensure you arrive on time, relaxed, and in style - anywhere in Slovenia or Europe. Call us or send an email and we will gladly prepare an individual offer for you.",
-      "MORE_ABOUT_US_BUTTON": "More About Us",
-      "VIP_BUTTON": "VIP Transfers"
+    "BUS_SECTION": {
+      "TITLE": "Comfortable and reliable group travel",
+      "SUBTITLE": "Coach transfers",
+      "CONTENT_1": "We organize modern bus transfers for groups of all sizes – from excursions and events to business and school trips. Our fleet ensures a comfortable, safe, and efficient journey tailored to your needs and schedule.",
+      "CONTENT_2": "With experienced drivers and well-planned organization, we make sure every trip runs smoothly and without stress. For more information or a tailored offer, feel free to contact us – we will be happy to assist you.",
+      "BUS_HOME_BUTTON": "Coach transfers",
+      "MORE_ABOUT_US_BUTTON": "More About Us"
     },
     "FLEET": {
-      "TITLE": "Reliable, comfortable and ready to go",
+      "TITLE": "When the vehicle becomes part of the experience",
       "SUBTITLE": "Our Fleet",
       "VEHICLES": {
         "C_CLASS": {
@@ -103,8 +124,8 @@
       }
     },
     "BUSINESS_PARTNERS": {
-      "TITLE": "Our Business Partners",
-      "SUBTITLE": "Trusted By Clients Throughout Slovenia And Europe"
+      "TITLE": "Trusted by companies and private clients",
+      "SUBTITLE": "VIP and corporate travel across Slovenia and Europe"
     }
   },
   "PRIVACY_POLICY": {

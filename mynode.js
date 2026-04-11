@@ -7,6 +7,7 @@ const dotenv = require('dotenv').config({ path: '.env' });
 const envFile = `import { IEnvironment } from '@interfaces';
 
 export const environment: IEnvironment = {
+  siteUrl: ${process.env.SITE_URL || '`https://www.vip.toman-bus.si`'},
   REDIRECT_LINK: '${process.env.REDIRECT_LINK}',
   EMAIL_SERVICE_ID: '${process.env.EMAIL_SERVICE_ID}',
   EMAIL_TEMPLATE_ID: '${process.env.EMAIL_TEMPLATE_ID}',
