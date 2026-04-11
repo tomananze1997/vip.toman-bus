@@ -11,16 +11,16 @@
     <!-- Content (responsive alignment) -->
     <div class="relative z-10 flex flex-col px-4 text-center sm:px-6 lg:ml-auto lg:w-3/5 lg:text-right">
       <div class="mb-6 sm:mb-8">
-        <p class="section-subtitle">{{ 'MAIN.VIP_TRANSFERS.SUBTITLE' | translate }}</p>
-        <h2 class="section-title">{{ 'MAIN.VIP_TRANSFERS.TITLE' | translate }}</h2>
+        <p class="section-subtitle">{{ 'MAIN.BUS_SECTION.SUBTITLE' | translate }}</p>
+        <h2 class="section-title">{{ 'MAIN.BUS_SECTION.TITLE' | translate }}</h2>
       </div>
-      <p class="section-text">{{ 'MAIN.VIP_TRANSFERS.CONTENT_1' | translate }}</p>
-      <p class="section-text hidden sm:inline-block">{{ 'MAIN.VIP_TRANSFERS.CONTENT_2' | translate }}</p>
+      <p class="section-text">{{ 'MAIN.BUS_SECTION.CONTENT_1' | translate }}</p>
+      <p class="section-text hidden sm:inline-block">{{ 'MAIN.BUS_SECTION.CONTENT_2' | translate }}</p>
 
       <!-- Buttons -->
       <div class="mt-6 flex flex-col justify-center gap-3 sm:mt-4 sm:flex-row sm:gap-4 lg:justify-end">
-        <a [href]="REDIRECT_LINK" target="_blank" class="btn-vip btn-md">{{ 'MAIN.VIP_TRANSFERS.VIP_BUTTON' | translate }}</a>
-        <a [routerLink]="['/', languageService.currentLang, 'about-us']" class="btn-primary btn-md">{{ 'MAIN.VIP_TRANSFERS.MORE_ABOUT_US_BUTTON' | translate }}</a>
+        <a [href]="coachSiteLangUrl" target="_blank" rel="noopener" class="btn-vip btn-md">{{ 'MAIN.BUS_SECTION.BUS_HOME_BUTTON' | translate }}</a>
+        <a  [routerLink]="['/', languageService.currentLang, 'about-us']" target="_blank" rel="noopener" class="btn-primary btn-md">{{ 'MAIN.BUS_SECTION.MORE_ABOUT_US_BUTTON' | translate }}</a>
       </div>
     </div>
   </div>

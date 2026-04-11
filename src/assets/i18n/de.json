@@ -2,7 +2,7 @@
   "NAVIGATION": {
     "ABOUT_US": "Über Uns",
     "CONTACT_US": "Kontaktieren Sie Uns",
-    "VIP": "VIP Transfers",
+    "VIP": "Busreisen",
     "LANGUAGE": {
       "ENGLISH": "Englisch",
       "SLOVENIAN": "Slowenisch",
@@ -21,59 +21,59 @@
   },
   "MAIN": {
     "HERO": {
-      "TITLE": "Genießen Sie Ein Komfortables Und Angenehmes Erlebnis",
-      "CONTENT_FIRST": "Mit den Toman-Busdiensten wird Ihre Reise komfortabel und angenehm. Wir sorgen für unvergessliche Erlebnisse und neue Orte zum Entdecken.",
-      "CONTENT_SECOND": "Alle Busse sind mit allen touristischen Annehmlichkeiten ausgestattet. Wir bieten auch VIP-Transfers mit Premium-Fahrzeugen und professionellen Fahrern an.",
+      "TITLE": "Beförderung auf einem höheren Niveau",
+      "CONTENT_FIRST": "Hochwertige Fahrzeuge und erfahrene Chauffeure für ein reibungsloses Fahrerlebnis, bei dem jedes Detail sorgfältig durchdacht ist.",
+      "CONTENT_SECOND": "Wir verbinden Zuverlässigkeit, Diskretion und Komfort zu einem Service für Kunden, die mehr als nur den Weg von A nach B erwarten.",
       "QUOTE_BUTTON": "Angebot Anfordern"
     },
     "WHO_WE_ARE": {
-      "TITLE": "Erleben Sie Komfortable Und Angenehme Reisen",
+      "TITLE": "Diskret und reibungslos unterwegs",
       "SUBTITLE": "Wer Wir Sind",
-      "CONTENT_1": "Komfortabel, zuverlässig und sorgenfrei – das ist unser Ansatz im Busverkehr. Ob Ausflug, Geschäftsveranstaltung oder Schulausflug, wir bringen Sie sicher und pünktlich ans Ziel. Unsere Busse sind modern ausgestattet, die Fahrer erfahren, und der Service immer auf Ihre Wünsche zugeschnitten. Lassen Sie Ihre Reise mit Vertrauen beginnen – wir kümmern uns um den Rest.",
-      "CONTENT_2": "Wenn Sie ein genaues Angebot wünschen, rufen Sie uns an, schreiben Sie eine E-Mail oder kontaktieren Sie uns über das Kontaktformular.",
+      "CONTENT_1": "Jede Fahrt ist eine sorgfältig geplante Erfahrung, bei der Komfort, Diskretion und Präzision im Vordergrund stehen. Mit erfahrenen Chauffeuren und hochwertigen Fahrzeugen sorgen wir für einen ruhigen und reibungslosen Ablauf – unabhängig vom Anlass. Unser Service richtet sich ganz nach Ihrem Tempo und Ihren Erwartungen, damit Sie entspannt und ohne unnötige Sorgen reisen.",
+      "CONTENT_2": "Für ein individuelles Angebot stehen wir Ihnen gerne zur Verfügung – kontaktieren Sie uns einfach auf die Weise, die Ihnen am besten passt.",
       "MORE_ABOUT_US_BUTTON": "Mehr Über Uns",
       "SERVICES_BUTTON": "Unsere Dienstleistungen",
       "FLEET_BUTTON": "Unsere Flotte"
     },
     "SERVICES": {
-      "TITLE": "Wohin Sie Auch Müssen – Wir Bringen Sie Hin",
+      "TITLE": "Transfers, abgestimmt auf Ihren Rhythmus und Ihre Anforderungen",
       "SUBTITLE": "Unsere Dienstleistungen",
       "FIRST": {
-        "TITLE": "Flughafentransfers",
-        "CONTENT": "Zuverlässige und stressfreie Transfers zum und vom Flughafen – immer pünktlich."
+        "TITLE": "Geschäfts- und Unternehmensfahrten",
+        "CONTENT": "Diskreter und zuverlässiger Service für Unternehmen, Meetings und Geschäftsevents."
       },
       "SECOND": {
-        "TITLE": "Hafentransfers",
-        "CONTENT": "Reibungslose und pünktliche Verbindungen zu Kreuzfahrthäfen – starten Sie Ihre Reise richtig."
+        "TITLE": "VIP- und Privattransfers",
+        "CONTENT": "Komfort, Diskretion und volle Flexibilität für anspruchsvollste Kunden."
       },
       "THIRD": {
-        "TITLE": "Reisefahrten",
-        "CONTENT": "Tages- und mehrtägige Transporte für Gruppen – komfortabel, flexibel und sicher."
+        "TITLE": "Events und besondere Anlässe",
+        "CONTENT": "Transfers für Gala-Abende, Hochzeiten und exklusive Veranstaltungen."
       },
       "FOURTH": {
-        "TITLE": "Schultransporte",
-        "CONTENT": "Sichere und pünktliche Schultransfers mit geprüften Fahrern und festen Routen."
+        "TITLE": "Premium-Gruppenfahrten",
+        "CONTENT": "Komfortable, organisierte Reisen für kleine und große Gruppen auf höherem Niveau."
       },
       "FIFTH": {
-        "TITLE": "Firmentransporte",
-        "CONTENT": "Professioneller Transport für Geschäftsveranstaltungen, Kunden und Führungskräfte."
+        "TITLE": "Langstreckentransfers in Slowenien und Europa",
+        "CONTENT": "Zuverlässige und komfortable Fahrten über längere Distanzen ohne Stress."
       },
       "SIXTH": {
-        "TITLE": "Transport Auf Anfrage",
-        "CONTENT": "Individuelle Transportlösungen, die auf Ihre Bedürfnisse zugeschnitten sind. Kontaktieren Sie uns für flexible Optionen."
+        "TITLE": "Maßgeschneiderte Transfers",
+        "CONTENT": "Individuell angepasste Transportlösungen nach Ihrem Zeitplan, Ihren Wünschen und Anforderungen."
       },
       "BUTTON": "Mehr Erfahren"
     },
-    "VIP_TRANSFERS": {
-      "TITLE": "Ultimativer Komfort Und Prestige Nach Ihren Wünschen",
-      "SUBTITLE": "VIP Transfers",
-      "CONTENT_1": "Für besondere Anlässe oder wichtige Geschäftsreisen bieten wir erstklassigen Transport mit Luxusfahrzeugen der höchsten Klasse. Unser Service ist vollständig auf Ihre Wünsche zugeschnitten – wir garantieren eine komfortable, sichere und sorgenfreie Reise auf höchstem Niveau.",
-      "CONTENT_2": "Unsere erfahrenen und diskreten Fahrer sorgen dafür, dass Sie pünktlich, entspannt und stilvoll ankommen – überall in Slowenien oder Europa. Rufen Sie uns an oder senden Sie eine E-Mail, und wir erstellen Ihnen gerne ein individuelles Angebot.",
-      "MORE_ABOUT_US_BUTTON": "Mehr Über Uns",
-      "VIP_BUTTON": "VIP Transfers"
+    "BUS_SECTION": {
+      "TITLE": "Komfortable und zuverlässige Gruppenreisen",
+      "SUBTITLE": "Busreisen",
+      "CONTENT_1": "Wir organisieren moderne Busfahrten für Gruppen jeder Größe – von Ausflügen und Veranstaltungen bis hin zu Geschäfts- und Schulreisen. Unsere Flotte sorgt für eine komfortable, sichere und effiziente Reise, die auf Ihre Bedürfnisse und Ihren Zeitplan abgestimmt ist.",
+      "CONTENT_2": "Mit erfahrenen Fahrern und einer durchdachten Organisation stellen wir sicher, dass jede Fahrt reibungslos und stressfrei verläuft. Für weitere Informationen oder ein individuelles Angebot stehen wir Ihnen gerne zur Verfügung.",
+      "BUS_HOME_BUTTON": "Busreisen",
+      "MORE_ABOUT_US_BUTTON": "Mehr über uns"
     },
     "FLEET": {
-      "TITLE": "Zuverlässig, Komfortabel Und Einsatzbereit",
+      "TITLE": "Wenn das Fahrzeug Teil des Erlebnisses wird",
       "SUBTITLE": "Unsere Flotte",
       "VEHICLES": {
         "C_CLASS": {
@@ -103,8 +103,8 @@
       }
     },
     "BUSINESS_PARTNERS": {
-      "TITLE": "Unsere Geschäftspartner",
-      "SUBTITLE": "Vertraut Von Kunden In Ganz Slowenien Und Europa"
+      "TITLE": "Vertrauen von Unternehmen und Privatkunden",
+      "SUBTITLE": "VIP- und Firmenfahrten in Slowenien und Europa"
     }
   },
   "PRIVACY_POLICY": {

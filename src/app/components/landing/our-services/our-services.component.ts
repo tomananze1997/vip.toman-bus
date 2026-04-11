@@ -13,12 +13,12 @@ export class OurServicesComponent implements AfterViewInit {
   public isMobileView: boolean = window.innerWidth < 640;
   public activeCardIndex: number | null = null;
   public cards: IServiceCards[] = [
-    { title: 'MAIN.SERVICES.FIRST.TITLE', content: 'MAIN.SERVICES.FIRST.CONTENT', icon: 'airplane' },
-    { title: 'MAIN.SERVICES.SECOND.TITLE', content: 'MAIN.SERVICES.SECOND.CONTENT', icon: 'ship' },
-    { title: 'MAIN.SERVICES.THIRD.TITLE', content: 'MAIN.SERVICES.THIRD.CONTENT', icon: 'suitcase' },
-    { title: 'MAIN.SERVICES.FOURTH.TITLE', content: 'MAIN.SERVICES.FOURTH.CONTENT', icon: 'school' },
-    { title: 'MAIN.SERVICES.FIFTH.TITLE', content: 'MAIN.SERVICES.FIFTH.CONTENT', icon: 'corporate' },
-    { title: 'MAIN.SERVICES.SIXTH.TITLE', content: 'MAIN.SERVICES.SIXTH.CONTENT', icon: 'coach' }
+    { title: 'MAIN.SERVICES.FIRST.TITLE', content: 'MAIN.SERVICES.FIRST.CONTENT', icon: 'suitcase' },
+    { title: 'MAIN.SERVICES.SECOND.TITLE', content: 'MAIN.SERVICES.SECOND.CONTENT', icon: 'crown' },
+    { title: 'MAIN.SERVICES.THIRD.TITLE', content: 'MAIN.SERVICES.THIRD.CONTENT', icon: 'champagne' },
+    { title: 'MAIN.SERVICES.FOURTH.TITLE', content: 'MAIN.SERVICES.FOURTH.CONTENT', icon: 'corporate' },
+    { title: 'MAIN.SERVICES.FIFTH.TITLE', content: 'MAIN.SERVICES.FIFTH.CONTENT', icon: 'globe' },
+    { title: 'MAIN.SERVICES.SIXTH.TITLE', content: 'MAIN.SERVICES.SIXTH.CONTENT', icon: 'settings' }
   ];
 
   ngAfterViewInit(): void {

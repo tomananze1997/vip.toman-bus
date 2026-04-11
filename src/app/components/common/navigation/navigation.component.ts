@@ -17,7 +17,11 @@ export class NavigationComponent {
 
   private ref: ElementRef = inject(ElementRef);
   public languageService: LanguageService = inject(LanguageService);
-  public REDIRECT_LINK: string = environment.REDIRECT_LINK;
+
+  public get coachSiteLangUrl(): string {
+    const base: string = environment.REDIRECT_LINK.replace(/\/$/, '');
+    return `${base}/${this.languageService.currentLang}`;
+  }
 
   @HostListener('window:scroll', [])
   onScroll() {

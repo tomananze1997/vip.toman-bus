@@ -2,7 +2,7 @@
   "NAVIGATION": {
     "ABOUT_US": "O nas",
     "CONTACT_US": "Kontakt",
-    "VIP": "VIP transferji",
+    "VIP": "Avtobusni prevozi",
     "LANGUAGE": {
       "ENGLISH": "Angleščina",
       "SLOVENIAN": "Slovenščina",
@@ -21,59 +21,59 @@
   },
   "MAIN": {
     "HERO": {
-      "TITLE": "Doživite udobno in prijetno izkušnjo",
-      "CONTENT_FIRST": "Z avtobusnimi prevozi Toman bo vaše potovanje prijetno in udobno. Poskrbimo, da doživite lepše izkušnje in odkrijete nove kraje.",
-      "CONTENT_SECOND": "Vsi avtobusi so opremljeni z vso turistično opremo. Nudimo tudi VIP prevoze z vrhunskimi vozili in profesionalnimi vozniki.",
+      "TITLE": "Prevoz na višjem nivoju",
+      "CONTENT_FIRST": "Vrhunska vozila in izkušeni šoferji za brezhibno izkušnjo prevoza, kjer je vsaka podrobnost skrbno premišljena.",
+      "CONTENT_SECOND": "Združujemo zanesljivost, diskretnost in udobje v storitev, namenjeno strankam, ki pričakujejo več kot le prihod na cilj.",
       "QUOTE_BUTTON": "Pridobite ponudbo"
     },
     "WHO_WE_ARE": {
-      "TITLE": "Varno in udobno na poti",
+      "TITLE": "Diskretno in brezhibno na poti",
       "SUBTITLE": "Kdo smo",
-      "CONTENT_1": "Udobno, zanesljivo in brezskrbno – to je naš pristop k avtobusnim prevozom. Ne glede na to, ali gre za izlet, poslovni dogodek ali šolsko ekskurzijo, vas popeljemo varno in pravočasno do cilja. Naši avtobusi so sodobno opremljeni, vozniki izkušeni, storitev pa vedno prilagojena vašim željam. Vaše potovanje naj se začne z zaupanjem – mi poskrbimo za vse ostalo.",
-      "CONTENT_2": "V kolikor bi želeli, da vam pripravimo točno ponudbo nas pokličite, pošljite e-mail sporočilo ali pa nas kontaktirajte preko kontaktnega obrazca.",
+      "CONTENT_1": "Vsaka vožnja je skrbno načrtovana izkušnja, kjer imajo udobje, diskretnost in natančnost prednost. Z izkušenimi šoferji in vrhunskimi vozili zagotavljamo brezhiben potek poti, ne glede na priložnost. Storitev prilagodimo vašemu tempu in pričakovanjem, da lahko potujete sproščeno in brez nepotrebnih skrbi.",
+      "CONTENT_2": "Za individualno ponudbo smo vam na voljo - preprosto nas kontaktirajte na način, ki vam najbolj ustreza.",
       "MORE_ABOUT_US_BUTTON": "Več o nas",
       "SERVICES_BUTTON": "Naše storitve",
       "FLEET_BUTTON": "Naš vozni park"
     },
     "SERVICES": {
-      "TITLE": "Kjerkoli morate biti — mi vas bomo pripeljali tja",
+      "TITLE": "Prevozi, prilagojeni vašemu ritmu in zahtevam",
       "SUBTITLE": "Naše storitve",
       "FIRST": {
-        "TITLE": "Letališki prevozi",
-        "CONTENT": "Zanesljivi in brezskrbni prevozi do in z letališča — vedno točni."
+        "TITLE": "Poslovni in korporativni prevozi",
+        "CONTENT": "Diskretna in zanesljiva storitev za podjetja, sestanke in poslovne dogodke."
       },
       "SECOND": {
-        "TITLE": "Prevozi do pristanišč",
-        "CONTENT": "Udobne in pravočasne povezave do križarskih pristanišč — začnite potovanje brez skrbi."
+        "TITLE": "VIP in zasebni prevozi",
+        "CONTENT": "Udobje, diskretnost in popolna prilagodljivost za zahtevnejše stranke."
       },
       "THIRD": {
-        "TITLE": "Izleti in potovanja",
-        "CONTENT": "Dnevni in večdnevni prevozi za skupine — udobno, prilagodljivo in varno."
+        "TITLE": "Dogodki in posebne priložnosti",
+        "CONTENT": "Prevozi za gala večere, poroke in ekskluzivne dogodke."
       },
       "FOURTH": {
-        "TITLE": "Šolski prevozi",
-        "CONTENT": "Varni in točni šolski prevozi z zaupanja vrednimi vozniki."
+        "TITLE": "Skupinski premium prevozi",
+        "CONTENT": "Udobna organizirana potovanja za manjše in večje skupine na višjem nivoju."
       },
       "FIFTH": {
-        "TITLE": "Poslovni prevozi",
-        "CONTENT": "Profesionalni prevozi za podjetja, njihove partnerje in vodilne kadre."
+        "TITLE": "Dolge razdalje po Sloveniji in Evropi",
+        "CONTENT": "Zanesljivi in udobni prevozi na daljše relacije brez stresa."
       },
       "SIXTH": {
-        "TITLE": "Prevozi po naročilu",
-        "CONTENT": "Prilagojene prevozne rešitve glede na vaše potrebe. Kontaktirajte nas za možnosti."
+        "TITLE": "Prevozi po meri",
+        "CONTENT": "Popolnoma prilagojene rešitve glede na vaš urnik, želje in zahteve."
       },
       "BUTTON": "Izvedi več"
     },
-    "VIP_TRANSFERS": {
-      "TITLE": "Popolno udobje in prestiž po meri",
-      "SUBTITLE": "VIP Prevozi",
-      "CONTENT_1": "Za posebne priložnosti ali pomembne poslovne poti ponujamo vrhunske prevoze z luksuznimi vozili višjega cenovnega razreda. Naša storitev je popolnoma prilagojena vašim željam – zagotovimo vam udobno, varno in brezskrbno potovanje na najvišji ravni.",
-      "CONTENT_2": "Naši izkušeni in diskretni vozniki poskrbijo, da prispete točno, sproščeno in v stilu – kamorkoli v Sloveniji ali Evropi. Pokličite nas ali pošljite e-mail in z veseljem vam pripravimo individualno ponudbo.",
-      "MORE_ABOUT_US_BUTTON": "Več o nas",
-      "VIP_BUTTON": "VIP prevozi"
+    "BUS_SECTION": {
+      "TITLE": "Udobna in zanesljiva skupinska potovanja",
+      "SUBTITLE": "Avtobusni prevozi",
+      "CONTENT_1": "Organiziramo sodobne avtobusne prevoze za skupine vseh velikosti – od izletov in dogodkov do poslovnih in šolskih poti. Naša flota zagotavlja udobno, varno in učinkovito potovanje, prilagojeno vašim potrebam in urniku.",
+      "CONTENT_2": "Z izkušenimi vozniki in premišljeno organizacijo poskrbimo, da vsaka pot poteka gladko in brez skrbi. Za več informacij ali ponudbo po meri nas kontaktirajte – z veseljem vam pomagamo.",
+      "BUS_HOME_BUTTON": "Avtobusni prevozi",
+      "MORE_ABOUT_US_BUTTON": "Več o nas"
     },
     "FLEET": {
-      "TITLE": "Zanesljivi, udobni in pripravljeni na pot",
+      "TITLE": "Ko vozilo postane del izkušnje",
       "SUBTITLE": "Vozni park",
       "VEHICLES": {
         "C_CLASS": {
@@ -103,8 +103,8 @@
       }
     },
     "BUSINESS_PARTNERS": {
-      "TITLE": "Naši poslovni partnerji",
-      "SUBTITLE": "Zaupajo nam naročniki po vsej Sloveniji in Evropi"
+      "TITLE": "Zaupajo nam podjetja in zasebne stranke",
+      "SUBTITLE": "VIP in poslovni prevozi po Sloveniji in Evropi"
     }
   },
   "PRIVACY_POLICY": {
