@@ -13,7 +13,7 @@
       <a href="tel:+38641720655" class="second-text-hover hidden items-center gap-1 xl:flex"><mat-icon svgIcon="telephone"></mat-icon>+386 41 720 655</a>
       <a [routerLink]="['/', languageService.currentLang, 'about-us']" class="btn-secondary-outline btn-xs">{{ 'NAVIGATION.ABOUT_US' | translate }}</a>
       <a [routerLink]="['/', languageService.currentLang, 'contact-us']" class="btn-primary-outline btn-xs">{{ 'NAVIGATION.CONTACT_US' | translate }}</a>
-      <a [href]="coachSiteLangUrl" target="_blank" rel="noopener" class="btn-vip btn-xs">{{ 'NAVIGATION.VIP' | translate }}</a>
+      <a [href]="coachSiteLangUrl" class="btn-vip btn-xs">{{ 'NAVIGATION.VIP' | translate }}</a>
       <app-language-picker />
     </div>
 
@@ -47,7 +47,7 @@
     <a [routerLink]="['/', languageService.currentLang, 'contact-us']" class="btn-primary-outline btn-md w-full" (click)="isMenuOpen = false">{{
       'NAVIGATION.CONTACT_US' | translate
     }}</a>
-    <a [href]="coachSiteLangUrl" target="_blank" rel="noopener" class="btn-vip btn-md w-full" (click)="isMenuOpen = false">{{ 'NAVIGATION.VIP' | translate }}</a>
+    <a [href]="coachSiteLangUrl" class="btn-vip btn-md w-full" (click)="isMenuOpen = false">{{ 'NAVIGATION.VIP' | translate }}</a>
     <app-language-picker (languageChange)="isMenuOpen = false" />
     <a href="tel:+38641720655" class="section-text-hover flex items-center gap-1"><mat-icon svgIcon="telephone"></mat-icon>+386 41 720 655</a>
   </div>
