@@ -9,4 +9,5 @@ import { LanguageService } from '@services';
 })
 export class FooterComponent {
   public languageService: LanguageService = inject(LanguageService);
+  public readonly currentYear: number = new Date().getFullYear();
 }
