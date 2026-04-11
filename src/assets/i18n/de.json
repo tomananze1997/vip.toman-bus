@@ -19,6 +19,27 @@
     "INFORMATIONS_CONTENT": "Bei uns wird Ihre Reise komfortabel, sicher und nach Ihren Wünschen gestaltet – überall in Slowenien oder Europa.",
     "COMPANY_DATA": "© 2025 Toman d.o.o. - Posavec 131, 4244 Podnart, Slowenien - USt-Nummer: SI95427201"
   },
+  "SEO": {
+    "SITE_NAME": "Toman Bus — VIP",
+    "OG_LOCALE": "de_DE",
+    "OG_IMAGE": "/assets/images/logo_2.png",
+    "HOME": {
+      "TITLE": "Homepage",
+      "DESCRIPTION": "VIP- und Firmenfahrten mit Chauffeur auf https://www.vip.toman-bus.si. Premium-Fuhrpark, diskrete Fahrer, Flughäfen und Events in Slowenien und Europa. Anfrage bei Toman d.o.o."
+    },
+    "ABOUT_US": {
+      "TITLE": "Über uns",
+      "DESCRIPTION": "Erfahren Sie mehr über Toman d.o.o. und unseren VIP-Chauffeur-Service auf https://www.vip.toman-bus.si — Erfahrung, Standards und Betreuung von Geschäfts- und Privatkunden in Slowenien und Europa."
+    },
+    "CONTACT_US": {
+      "TITLE": "Kontakt",
+      "DESCRIPTION": "Kontaktieren Sie Toman VIP auf https://www.vip.toman-bus.si für Angebote und Anfragen — Telefon, E-Mail und Kontaktformular für Chauffeurfahrten in Slowenien und Europa."
+    },
+    "PRIVACY_POLICY": {
+      "TITLE": "Datenschutzerklärung",
+      "DESCRIPTION": "Datenschutzerklärung für die Websites von Toman d.o.o., einschließlich https://www.vip.toman-bus.si. Wie wir personenbezogene Daten auf der VIP-Seite verarbeiten und Ihre Rechte."
+    }
+  },
   "MAIN": {
     "HERO": {
       "TITLE": "Beförderung auf einem höheren Niveau",

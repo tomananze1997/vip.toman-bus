@@ -19,6 +19,27 @@
     "INFORMATIONS_CONTENT": "With us, your journey will be comfortable, safe, and tailored to your wishes – anywhere in Slovenia or Europe.",
     "COMPANY_DATA": "© 2025 Toman d.o.o. - Posavec 131, 4244 Podnart, Slovenia - VAT number: SI95427201"
   },
+  "SEO": {
+    "SITE_NAME": "Toman Bus — VIP",
+    "OG_LOCALE": "en_GB",
+    "OG_IMAGE": "/assets/images/logo_2.png",
+    "HOME": {
+      "TITLE": "Homepage",
+      "DESCRIPTION": "VIP and corporate chauffeur transfers on https://www.vip.toman-bus.si. Premium fleet, discreet drivers, airports and events across Slovenia and Europe. Request a quote from Toman d.o.o."
+    },
+    "ABOUT_US": {
+      "TITLE": "About us",
+      "DESCRIPTION": "Learn about Toman d.o.o. and our VIP chauffeur service on https://www.vip.toman-bus.si — experience, standards, and how we support business and private clients in Slovenia and Europe."
+    },
+    "CONTACT_US": {
+      "TITLE": "Contact us",
+      "DESCRIPTION": "Contact Toman VIP on https://www.vip.toman-bus.si for quotes and enquiries — phone, email, and contact form for chauffeur transfers in Slovenia and Europe."
+    },
+    "PRIVACY_POLICY": {
+      "TITLE": "Privacy policy",
+      "DESCRIPTION": "Privacy policy for Toman d.o.o. websites, including https://www.vip.toman-bus.si. How we handle personal data when you use the VIP transfers site and your rights."
+    }
+  },
   "MAIN": {
     "HERO": {
       "TITLE": "Transportation at a higher level",

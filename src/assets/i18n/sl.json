@@ -19,6 +19,27 @@
     "INFORMATIONS_CONTENT": "Z nami bo vaše potovanje udobno, varno in prilagojeno vašim željam - kjerkoli v Sloveniji ali Evropi.",
     "COMPANY_DATA": "© 2025 Toman d.o.o. - Posavec 131, 4244 Podnart, Slovenija - DDV številka: SI95427201"
   },
+  "SEO": {
+    "SITE_NAME": "Toman Bus — VIP",
+    "OG_LOCALE": "sl_SI",
+    "OG_IMAGE": "/assets/images/logo_2.png",
+    "HOME": {
+      "TITLE": "Domača stran",
+      "DESCRIPTION": "VIP in poslovni transferji s šoferjem na https://www.vip.toman-bus.si. Premium vozni park, diskretni vozniki, letališča in dogodki po Sloveniji in Evropi. Povpraševanje Toman d.o.o."
+    },
+    "ABOUT_US": {
+      "TITLE": "O nas",
+      "DESCRIPTION": "Spoznajte Toman d.o.o. in naš VIP chauffeur servis na https://www.vip.toman-bus.si — izkušnje, standardi in podpora poslovnim ter zasebnim strankam v Sloveniji in Evropi."
+    },
+    "CONTACT_US": {
+      "TITLE": "Kontakt",
+      "DESCRIPTION": "Kontaktirajte Toman VIP na https://www.vip.toman-bus.si za ponudbe in vprašanja — telefon, e-pošta in kontaktni obrazec za transferje v Sloveniji in Evropi."
+    },
+    "PRIVACY_POLICY": {
+      "TITLE": "Politika zasebnosti",
+      "DESCRIPTION": "Politika zasebnosti za spletne strani Toman d.o.o., vključno z https://www.vip.toman-bus.si. Kako obravnavamo osebne podatke pri uporabi VIP strani in vaše pravice."
+    }
+  },
   "MAIN": {
     "HERO": {
       "TITLE": "Prevoz na višjem nivoju",
